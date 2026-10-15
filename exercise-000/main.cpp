@@ -12,7 +12,8 @@ int main(int argc, char **argv) {
      * More info at https://fmt.dev/12.0/api/
      */
     fmt::print("Hello, {}!\n", tea::PROJECT_NAME);
-    fmt::print("Value of Var: {}!\n", var)
+    fmt::print("Value of Var: {}!\n", var);
+    fmt::print("Value of args: {}", argc);
 
     /* INSERT YOUR CODE HERE */
 
